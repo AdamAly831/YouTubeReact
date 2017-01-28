@@ -17,9 +17,10 @@ import React, {Component} from 'react';
         </div>
       );
     }
-      onInputChange(term){
+      onInputChange(term) {
       this.setState({term});
       this.props.onSearchTermChange(term);
+
     }
 }
 
